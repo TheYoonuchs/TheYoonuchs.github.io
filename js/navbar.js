@@ -6,10 +6,10 @@
     var cOst = $(this).scrollTop();
 
     if(cOst > ost) {
-       $('header').addClass('nav-fixed').removeClass('nav-default');
+       $('header').addClass('header-fixed').removeClass('header-default');
     }
     else {
-       $('header').addClass('nav-default').removeClass('nav-fixed');
+       $('header').addClass('header-default').removeClass('header-fixed');
     }
 
     ost = cOst;

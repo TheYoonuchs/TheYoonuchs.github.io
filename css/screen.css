@@ -13,4 +13,9 @@
     width: 150px;
     background-color: #1abc9c;
   }
+  
+  header {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
 }
