@@ -13,16 +13,28 @@
 }
 
 .content > .body {
+  position: relative;
   width: auto;
-  height: 150px;
-  background-color: #fafafa;
+  height: auto;
+  margin: 0;
 }
 
-.content > .body {
-  text-align: center;
-  color: #cccccc;
-  font-size: 2em;
-  padding-top: 50px;
+.content > .body > figure > img {
+  width: 100%;
+  height: auto;
+  left: -10px;
+  right: -10px;
+}
+
+.content > .body > figure > figcaption {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  bottom: 0px;
+  padding: 1em;
+  color: #7F7F7F;
+  background-color: #fafafa;
+  opacity: 0.95;
 }
 
 .content > .bottom {
