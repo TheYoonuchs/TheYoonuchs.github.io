@@ -4,12 +4,52 @@
   margin: 15px auto auto;
   background-color: #fff;
   box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.025);
+  transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
 }
 
 .content > .head {
   width: auto;
-  height: 60px;
+  height: 70px;
   background-color: #fff;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  margin: 10px 0 10px;
+  border: 20px;
+  border-color: #000;
+}
+
+.user-description {
+  padding-top: 15px;
+}
+
+.user-description > .name {
+  color: #5f6872;
+  font-size: 1em;
+  margin-left: -15px; 
+}
+.user-description > .level {
+  color: #a8adb2;
+  font-size: 1em;
+  margin-left: 5px; 
+}
+.status-description {
+  padding-top: 2.5px;
+}
+.status-description > .status-format {
+  font-size: 1em;
+  color: #9499e6;
+  margin-left: -15px;
+}
+
+.status-description > .tagname {
+  font-size: 1em;
+  color: #00beb0;
+  margin-left: 5px;
 }
 
 .content > .body {

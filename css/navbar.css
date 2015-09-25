@@ -1,7 +1,7 @@
 .navbar-default {
   background-color: #fff;
   border: 0;
-  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
 }
 
 
@@ -13,6 +13,9 @@
   padding: 10px 0 0;
   background-color: #fff;
   box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.025);
+  transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
   z-index: 3;
 }
 
@@ -24,6 +27,9 @@
   padding: 10px 0 0;
   background-color: #fff;
   box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.025);
+  transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
   z-index: 3;
 }
 

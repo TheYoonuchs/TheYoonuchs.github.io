@@ -3,7 +3,12 @@ body {
 }
 
 a, a:active, a:focus{
-        outline: none;
+  outline: none;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+  text-decoration: none;
 }
 
 .container {
