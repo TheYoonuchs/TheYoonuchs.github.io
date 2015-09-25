@@ -2,7 +2,9 @@ body {
   background-color: #ebebeb;
 }
 
-
+a, a:active, a:focus{
+        outline: none;
+}
 
 .container {
 }
