@@ -90,7 +90,39 @@
 }
 
 .content > .bottom {
+  position: relative;
   width: auto;
   height: 35px;
   background-color: #fff;
+}
+
+.content > .bottom > a {
+  width: auto;
+  height: 13px;
+  font-size: 0.85em;
+  margin: 10px 15px 15px;
+  color: #bfbfbf;
+}
+
+.content > .bottom > a > .vote {
+  width: auto;
+  height: 13px;
+  margin: 10px 15px 15px;
+}
+.content > .bottom > a > .comment {
+  width: auto;
+  height: 13px;
+  margin: 10px 15px 15px;
+}
+.content > .bottom > a > .share {
+  width: auto;
+  height: 15px;
+  margin: 10px 15px 15px;
+}
+.content > .bottom > a > .bucket {
+  position: absolute;
+  width: auto;
+  height: 13px;
+  right: 0;
+  margin: 10px 15px 15px;
 }
