@@ -59,6 +59,19 @@
   margin: 0;
 }
 
+.content > .body#img > figure {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+}
+
+.content > .body#no-img > figure {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+}
+
 .content > .body > figure > a > img {
   width: 100%;
   height: auto;
